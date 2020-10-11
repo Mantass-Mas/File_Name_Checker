@@ -5,8 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:File_Name_Checker"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Name Match App" Height="450" Width="800">
     <Grid>
-        
+        <TextBox x:Name="inputFolder" PreviewDragOver="input_PreviewDragOver" Drop="input_Drop" Text="ここにフォルダをDrag and Dropしてください" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="100" TextWrapping="Wrap" FontSize="15" Width="250" Height="100" />
+        <TextBox x:Name="inputFile" PreviewDragOver="input_PreviewDragOver" Drop="input_Drop" Text="ここにファイルをDrag and Dropしてください" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="100" TextWrapping="Wrap" FontSize="15" Width="250" Height="100"/>
+        <Button x:Name="check" Content="Check Start" Width="100" Height="50" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="250, 50" Click="check_Click"/>
+        <Button x:Name="finish" Content="Finish" Width="100" Height="50" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="250, 50" Click="finish_Click"/>
     </Grid>
 </Window>

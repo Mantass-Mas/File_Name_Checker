@@ -1,0 +1,15 @@
+C:\Users\manta\OneDrive\ドキュメント\GitHub\File_Name_Checker\File_Name_Checker\File_Name_Checker\bin\Debug\File_Name_Checker.exe.config
+C:\Users\manta\OneDrive\ドキュメント\GitHub\File_Name_Checker\File_Name_Checker\File_Name_Checker\bin\Debug\File_Name_Checker.exe
+C:\Users\manta\OneDrive\ドキュメント\GitHub\File_Name_Checker\File_Name_Checker\File_Name_Checker\bin\Debug\File_Name_Checker.pdb
+C:\Users\manta\OneDrive\ドキュメント\GitHub\File_Name_Checker\File_Name_Checker\File_Name_Checker\obj\Debug\File_Name_Checker.csprojAssemblyReference.cache
+C:\Users\manta\OneDrive\ドキュメント\GitHub\File_Name_Checker\File_Name_Checker\File_Name_Checker\obj\Debug\MainWindow.g.cs
+C:\Users\manta\OneDrive\ドキュメント\GitHub\File_Name_Checker\File_Name_Checker\File_Name_Checker\obj\Debug\App.g.cs
+C:\Users\manta\OneDrive\ドキュメント\GitHub\File_Name_Checker\File_Name_Checker\File_Name_Checker\obj\Debug\File_Name_Checker_MarkupCompile.cache
+C:\Users\manta\OneDrive\ドキュメント\GitHub\File_Name_Checker\File_Name_Checker\File_Name_Checker\obj\Debug\File_Name_Checker_MarkupCompile.lref
+C:\Users\manta\OneDrive\ドキュメント\GitHub\File_Name_Checker\File_Name_Checker\File_Name_Checker\obj\Debug\MainWindow.baml
+C:\Users\manta\OneDrive\ドキュメント\GitHub\File_Name_Checker\File_Name_Checker\File_Name_Checker\obj\Debug\File_Name_Checker.g.resources
+C:\Users\manta\OneDrive\ドキュメント\GitHub\File_Name_Checker\File_Name_Checker\File_Name_Checker\obj\Debug\File_Name_Checker.Properties.Resources.resources
+C:\Users\manta\OneDrive\ドキュメント\GitHub\File_Name_Checker\File_Name_Checker\File_Name_Checker\obj\Debug\File_Name_Checker.csproj.GenerateResource.cache
+C:\Users\manta\OneDrive\ドキュメント\GitHub\File_Name_Checker\File_Name_Checker\File_Name_Checker\obj\Debug\File_Name_Checker.csproj.CoreCompileInputs.cache
+C:\Users\manta\OneDrive\ドキュメント\GitHub\File_Name_Checker\File_Name_Checker\File_Name_Checker\obj\Debug\File_Name_Checker.exe
+C:\Users\manta\OneDrive\ドキュメント\GitHub\File_Name_Checker\File_Name_Checker\File_Name_Checker\obj\Debug\File_Name_Checker.pdb
