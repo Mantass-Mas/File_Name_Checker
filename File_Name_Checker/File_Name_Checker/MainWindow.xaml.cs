@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.IO;
 
 namespace File_Name_Checker
 {
@@ -77,7 +78,37 @@ namespace File_Name_Checker
         /// <param name="e"></param>
         private void check_Click(object sender, RoutedEventArgs e)
         {
+            try
+            {
+                var file_names = Directory.GetFiles(inputFolder.Text, "*", SearchOption.TopDirectoryOnly);
+                var file_text = "";
+                using(var reader = new StreamReader(inputFile.Text))
+                {
+                    file_text = reader.ReadToEnd();
+                }
+                var file_array = file_text.Split('\n');
+                file_array = file_array.Select(x => x.Trim()).ToArray();
+                foreach(var file in file_array)
+                {
+                    if (!file_names.Contains(file))
+                    {
 
+                    }
+                }
+                foreach(var file_name in file_names)
+                {
+                    if (!file_array.Contains(file_name))
+                    {
+
+                    }
+                }
+            }
+            catch
+            {
+                var errorDialog = new ErrorWindow();
+                errorDialog.error.Text = "指定されたフォルダあるいはファイルのパスが誤っています。";
+                errorDialog.ShowDialog();
+            }
         }
 
         /// <summary>
@@ -87,7 +118,7 @@ namespace File_Name_Checker
         /// <param name="e"></param>
         private void finish_Click(object sender, RoutedEventArgs e)
         {
-
+            Application.Current.Shutdown();
         }
     }
 }

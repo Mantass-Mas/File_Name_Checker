@@ -13,3 +13,5 @@ C:\Users\manta\OneDrive\ドキュメント\GitHub\File_Name_Checker\File_Name_Ch
 C:\Users\manta\OneDrive\ドキュメント\GitHub\File_Name_Checker\File_Name_Checker\File_Name_Checker\obj\Debug\File_Name_Checker.csproj.CoreCompileInputs.cache
 C:\Users\manta\OneDrive\ドキュメント\GitHub\File_Name_Checker\File_Name_Checker\File_Name_Checker\obj\Debug\File_Name_Checker.exe
 C:\Users\manta\OneDrive\ドキュメント\GitHub\File_Name_Checker\File_Name_Checker\File_Name_Checker\obj\Debug\File_Name_Checker.pdb
+C:\Users\manta\OneDrive\ドキュメント\GitHub\File_Name_Checker\File_Name_Checker\File_Name_Checker\obj\Debug\ErrorWindow.g.cs
+C:\Users\manta\OneDrive\ドキュメント\GitHub\File_Name_Checker\File_Name_Checker\File_Name_Checker\obj\Debug\ErrorWindow.baml
