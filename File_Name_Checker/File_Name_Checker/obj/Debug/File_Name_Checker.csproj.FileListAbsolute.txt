@@ -15,3 +15,5 @@ C:\Users\manta\OneDrive\ドキュメント\GitHub\File_Name_Checker\File_Name_Ch
 C:\Users\manta\OneDrive\ドキュメント\GitHub\File_Name_Checker\File_Name_Checker\File_Name_Checker\obj\Debug\File_Name_Checker.pdb
 C:\Users\manta\OneDrive\ドキュメント\GitHub\File_Name_Checker\File_Name_Checker\File_Name_Checker\obj\Debug\ErrorWindow.g.cs
 C:\Users\manta\OneDrive\ドキュメント\GitHub\File_Name_Checker\File_Name_Checker\File_Name_Checker\obj\Debug\ErrorWindow.baml
+C:\Users\manta\OneDrive\ドキュメント\GitHub\File_Name_Checker\File_Name_Checker\File_Name_Checker\obj\Debug\ResultWindow.g.cs
+C:\Users\manta\OneDrive\ドキュメント\GitHub\File_Name_Checker\File_Name_Checker\File_Name_Checker\obj\Debug\ResultWindow.baml

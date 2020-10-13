@@ -7,6 +7,6 @@
         mc:Ignorable="d"
         Title="エラー" Height="300" Width="300">
     <Grid>
-        <TextBlock x:Name="error" Text="" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        <TextBlock x:Name="error" Text="指定されたフォルダあるいはファイルのパスが誤っています。" VerticalAlignment="Center" HorizontalAlignment="Center"/>
     </Grid>
 </Window>

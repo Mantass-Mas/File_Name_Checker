@@ -87,26 +87,27 @@ namespace File_Name_Checker
                     file_text = reader.ReadToEnd();
                 }
                 var file_array = file_text.Split('\n');
-                file_array = file_array.Select(x => x.Trim()).ToArray();
+                file_array = file_array.Select(x => x.Trim()).Where(x => x != "").ToArray();
+                var no_file_list = new List<string>();
                 foreach(var file in file_array)
                 {
                     if (!file_names.Contains(file))
                     {
-
+                        no_file_list.Add(file);
                     }
                 }
+                var no_text_list = new List<string>();
                 foreach(var file_name in file_names)
                 {
                     if (!file_array.Contains(file_name))
                     {
-
+                        no_text_list.Add(file_name);
                     }
                 }
             }
             catch
             {
                 var errorDialog = new ErrorWindow();
-                errorDialog.error.Text = "指定されたフォルダあるいはファイルのパスが誤っています。";
                 errorDialog.ShowDialog();
             }
         }
