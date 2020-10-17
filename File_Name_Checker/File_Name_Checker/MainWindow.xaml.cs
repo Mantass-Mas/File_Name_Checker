@@ -1,16 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.IO;
 
@@ -80,7 +71,12 @@ namespace File_Name_Checker
         {
             try
             {
-                var file_names = Directory.GetFiles(inputFolder.Text, "*", SearchOption.TopDirectoryOnly);
+                var file_paths = Directory.GetFiles(inputFolder.Text, "*", SearchOption.TopDirectoryOnly);
+                var file_names = new string[file_paths.Length];
+                for(var i = 0; i < file_names.Length; i++)
+                {
+                    file_names[i] = System.IO.Path.GetFileName(file_paths[i]);
+                }
                 var file_text = "";
                 using(var reader = new StreamReader(inputFile.Text))
                 {
@@ -104,6 +100,9 @@ namespace File_Name_Checker
                         no_text_list.Add(file_name);
                     }
                 }
+                var resultWindow = new ResultWindow();
+                resultWindow.DataSet(no_file_list.ToArray(), no_text_list.ToArray());
+                resultWindow.Show();
             }
             catch
             {

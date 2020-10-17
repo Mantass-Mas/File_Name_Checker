@@ -22,6 +22,8 @@
             <Border BorderBrush="Black" BorderThickness="1" Grid.Column="1" Grid.Row="1"/>
             <TextBlock x:Name="title1" Text="Excelに記載あり/datファイルなし" Margin="10" FontSize="15" FontWeight="Bold"/>
             <TextBlock x:Name="title2" Text="Excelに記載なし/datファイルあり" Margin="10" FontSize="15" FontWeight="Bold" Grid.Column="1"/>
+            <TextBlock x:Name="no_file" Text="{Binding NoFile}" Grid.Row="1" Margin="10" TextWrapping="Wrap"/>
+            <TextBlock x:Name="no_text" Text="{Binding NoText}" Grid.Column="1" Grid.Row="1" Margin="10" TextWrapping="Wrap"/>
         </Grid>
     </ScrollViewer>
 </Window>
